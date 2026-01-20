@@ -1,0 +1,43 @@
+{
+  "initialHabits": [
+    {
+      "id": 1,
+      "name": "早起",
+      "category": "健康",
+      "target": "7:00",
+      "streak": 3,
+      "completedToday": false
+    },
+    {
+      "id": 2,
+      "name": "阅读30分钟",
+      "category": "学习",
+      "target": "30",
+      "streak": 5,
+      "completedToday": false
+    },
+    {
+      "id": 3,
+      "name": "健身",
+      "category": "健康",
+      "target": "1小时",
+      "streak": 2,
+      "completedToday": false
+    },
+    {
+      "id": 4,
+      "name": "写代码",
+      "category": "工作",
+      "target": "2小时",
+      "streak": 7,
+      "completedToday": false
+    }
+  ],
+  "categories": [
+    "全部",
+    "健康",
+    "学习",
+    "工作",
+    "生活"
+  ]
+}

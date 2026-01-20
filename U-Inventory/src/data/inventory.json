@@ -1,0 +1,47 @@
+{
+  "initialItems": [
+    {
+      "id": 1,
+      "name": "笔记本电脑",
+      "sku": "LAPTOP-001",
+      "quantity": 15,
+      "price": 5999,
+      "category": "电子产品",
+      "minStock": 5
+    },
+    {
+      "id": 2,
+      "name": "无线鼠标",
+      "sku": "MOUSE-001",
+      "quantity": 50,
+      "price": 99,
+      "category": "电子产品",
+      "minStock": 10
+    },
+    {
+      "id": 3,
+      "name": "T恤衫",
+      "sku": "SHIRT-001",
+      "quantity": 100,
+      "price": 59,
+      "category": "服装",
+      "minStock": 20
+    },
+    {
+      "id": 4,
+      "name": "有机牛奶",
+      "sku": "MILK-001",
+      "quantity": 30,
+      "price": 8,
+      "category": "食品",
+      "minStock": 15
+    }
+  ],
+  "categories": [
+    "全部",
+    "电子产品",
+    "服装",
+    "食品",
+    "其他"
+  ]
+}

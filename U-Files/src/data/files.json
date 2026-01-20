@@ -1,0 +1,43 @@
+{
+  "initialFiles": [
+    {
+      "id": 1,
+      "name": "项目报告.pdf",
+      "size": "2.5MB",
+      "type": "PDF",
+      "category": "文档",
+      "date": "2025-01-15"
+    },
+    {
+      "id": 2,
+      "name": "会议记录.docx",
+      "size": "156KB",
+      "type": "Word",
+      "category": "文档",
+      "date": "2025-01-16"
+    },
+    {
+      "id": 3,
+      "name": "风景.jpg",
+      "size": "3.2MB",
+      "type": "JPEG",
+      "category": "图片",
+      "date": "2025-01-17"
+    },
+    {
+      "id": 4,
+      "name": "演示视频.mp4",
+      "size": "45MB",
+      "type": "MP4",
+      "category": "视频",
+      "date": "2025-01-18"
+    }
+  ],
+  "categories": [
+    "全部",
+    "文档",
+    "图片",
+    "视频",
+    "其他"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "U-Images",
+  "installCommand": "npm install",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}

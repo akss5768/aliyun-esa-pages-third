@@ -1,0 +1,39 @@
+{
+  "initialBookmarks": [
+    {
+      "id": 1,
+      "name": "GitHub",
+      "url": "https://github.com",
+      "category": "工作",
+      "icon": ""
+    },
+    {
+      "id": 2,
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "category": "学习",
+      "icon": ""
+    },
+    {
+      "id": 3,
+      "name": "Bilibili",
+      "url": "https://www.bilibili.com",
+      "category": "娱乐",
+      "icon": ""
+    },
+    {
+      "id": 4,
+      "name": "V2EX",
+      "url": "https://www.v2ex.com",
+      "category": "学习",
+      "icon": ""
+    }
+  ],
+  "categories": [
+    "全部",
+    "工作",
+    "学习",
+    "娱乐",
+    "其他"
+  ]
+}

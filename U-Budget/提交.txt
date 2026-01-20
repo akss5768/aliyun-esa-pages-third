@@ -1,0 +1,30 @@
+作品访问地址:
+https://u-budget.5e61f340.er.aliyun-esa.net/
+
+github仓库地址:
+https://github.com/akss5768/aliyun-esa-pages-third/tree/main/U-Budget
+
+
+作品说明:
+# U-Budget 个人财务管理
+
+U-Budget 是一个简洁高效的财务管理应用，帮助您轻松追踪收入和支出，了解财务状况。
+
+## 功能特性
+
+- **收支记录** - 记录每笔收入和支出
+- **分类统计** - 按类别查看财务数据
+- **余额查询** - 实时计算账户余额
+- **数据持久化** - 使用 LocalStorage 本地存储数据
+- **响应式设计** - 完美适配桌面和移动设备
+- **明亮清新** - 蓝色主题界面，清新舒适
+
+## 技术栈
+
+- **前端框架**: React 18
+- **路由**: React Router
+- **UI样式**: Tailwind CSS
+- **状态管理**: React Hooks
+- **数据存储**: LocalStorage
+- **构建工具**: Vite
+- **图标库**: Lucide React

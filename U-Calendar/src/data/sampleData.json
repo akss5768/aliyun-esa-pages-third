@@ -1,0 +1,16 @@
+{
+  "stats": [
+    { "icon": "Calendar", "label": "待办事项", "value": "12", "color": "bg-blue-500" },
+    { "icon": "Clock", "label": "进行中", "value": "5", "color": "bg-green-500" },
+    { "icon": "TrendingUp", "label": "已完成", "value": "45", "color": "bg-purple-500" },
+    { "icon": "Users", "label": "用户数", "value": "128", "color": "bg-orange-500" }
+  ],
+  "technologies": [
+    "React 18",
+    "React Router",
+    "Tailwind CSS",
+    "Vite",
+    "LocalStorage",
+    "Lucide React"
+  ]
+}

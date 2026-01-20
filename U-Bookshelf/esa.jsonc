@@ -1,0 +1,8 @@
+{
+  "name": "U-Bookshelf",
+  "installCommand": "npm install",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}

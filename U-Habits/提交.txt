@@ -1,0 +1,31 @@
+作品访问地址:
+https://u-habits.5e61f340.er.aliyun-esa.net/
+
+github仓库地址:
+https://github.com/akss5768/aliyun-esa-pages-third/tree/main/U-Habits
+
+
+作品说明:
+# U-Habits 习惯追踪
+
+U-Habits 是一个现代化的习惯追踪应用，帮助您轻松管理相关信息。
+
+## 功能特性
+
+- **习惯打卡**
+- **连续统计**
+- **目标设定**
+- **数据可视化**
+- **数据持久化** - 使用 LocalStorage 本地存储数据
+- **响应式设计** - 完美适配桌面和移动设备
+- **明亮清新** - green主题界面
+
+## 技术栈
+
+- **前端框架**: React 18
+- **路由**: React Router
+- **UI样式**: Tailwind CSS
+- **状态管理**: React Hooks
+- **数据存储**: LocalStorage
+- **构建工具**: Vite
+- **图标库**: Lucide React

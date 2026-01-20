@@ -1,0 +1,44 @@
+{
+  "initialBooks": [
+    {
+      "id": 1,
+      "title": "深入理解计算机系统",
+      "author": "Randal E. Bryant",
+      "category": "科技",
+      "status": "阅读中",
+      "rating": 5,
+      "cover": ""
+    },
+    {
+      "id": 2,
+      "title": "百年孤独",
+      "author": "加西亚·马尔克斯",
+      "category": "文学",
+      "status": "已读完",
+      "rating": 5,
+      "cover": ""
+    },
+    {
+      "id": 3,
+      "title": "人类简史",
+      "author": "尤瓦尔·赫拉利",
+      "category": "历史",
+      "status": "未开始",
+      "rating": 4,
+      "cover": ""
+    }
+  ],
+  "categories": [
+    "全部",
+    "文学",
+    "科技",
+    "历史",
+    "艺术",
+    "其他"
+  ],
+  "statuses": [
+    "未开始",
+    "阅读中",
+    "已读完"
+  ]
+}

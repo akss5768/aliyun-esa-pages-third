@@ -1,0 +1,31 @@
+作品访问地址:
+https://u-files.5e61f340.er.aliyun-esa.net/
+
+github仓库地址:
+https://github.com/akss5768/aliyun-esa-pages-third/tree/main/U-Files
+
+
+作品说明:
+# U-Files 文件管理
+
+U-Files 是一个现代化的文件管理应用，帮助您轻松管理相关信息。
+
+## 功能特性
+
+- **文件上传**
+- **分类管理**
+- **搜索功能**
+- **批量操作**
+- **数据持久化** - 使用 LocalStorage 本地存储数据
+- **响应式设计** - 完美适配桌面和移动设备
+- **明亮清新** - gray主题界面
+
+## 技术栈
+
+- **前端框架**: React 18
+- **路由**: React Router
+- **UI样式**: Tailwind CSS
+- **状态管理**: React Hooks
+- **数据存储**: LocalStorage
+- **构建工具**: Vite
+- **图标库**: Lucide React

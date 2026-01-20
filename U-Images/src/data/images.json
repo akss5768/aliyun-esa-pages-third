@@ -1,0 +1,43 @@
+{
+  "initialImages": [
+    {
+      "id": 1,
+      "title": "日出",
+      "url": "",
+      "category": "风景",
+      "date": "2025-01-15",
+      "description": "美丽的日出景色"
+    },
+    {
+      "id": 2,
+      "title": "城市天际线",
+      "url": "",
+      "category": "建筑",
+      "date": "2025-01-16",
+      "description": "现代城市建筑"
+    },
+    {
+      "id": 3,
+      "title": "人物肖像",
+      "url": "",
+      "category": "人物",
+      "date": "2025-01-17",
+      "description": "艺术人像摄影"
+    },
+    {
+      "id": 4,
+      "title": "抽象艺术",
+      "url": "",
+      "category": "艺术",
+      "date": "2025-01-18",
+      "description": "现代抽象画作"
+    }
+  ],
+  "categories": [
+    "全部",
+    "风景",
+    "人物",
+    "建筑",
+    "艺术"
+  ]
+}

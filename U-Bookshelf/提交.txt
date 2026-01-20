@@ -1,0 +1,31 @@
+作品访问地址:
+https://u-bookshelf.5e61f340.er.aliyun-esa.net/
+
+github仓库地址:
+https://github.com/akss5768/aliyun-esa-pages-third/tree/main/U-Bookshelf
+
+
+作品说明:
+# U-Bookshelf 图书管理
+
+U-Bookshelf 是一个现代化的图书管理应用，帮助您轻松管理相关信息。
+
+## 功能特性
+
+- **图书添加**
+- **借阅管理**
+- **评分记录**
+- **阅读进度**
+- **数据持久化** - 使用 LocalStorage 本地存储数据
+- **响应式设计** - 完美适配桌面和移动设备
+- **明亮清新** - amber主题界面
+
+## 技术栈
+
+- **前端框架**: React 18
+- **路由**: React Router
+- **UI样式**: Tailwind CSS
+- **状态管理**: React Hooks
+- **数据存储**: LocalStorage
+- **构建工具**: Vite
+- **图标库**: Lucide React
