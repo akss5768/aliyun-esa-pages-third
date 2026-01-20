@@ -11,7 +11,7 @@ function Home() {
     if (saved) {
       setItems(JSON.parse(saved))
     } else {
-      setItems(data.initialBudget if 'initial' in data else data.budget)
+      setItems(data.initialTransactions)
     }
   }, [])
 
@@ -28,15 +28,24 @@ function Home() {
         <p className="text-gray-600">轻松管理您的收支情况</p>
       </div>
 
-      <div className="bg-white rounded-xl shadow-md p-6 mb-6"><div className="flex flex-wrap gap-2"><Tag className="w-5 h-5 text-gray-500" />
-      {project_info["categories"].map(cat => (}<button key={cat} onClick={() => setFilter(cat)} className={`px-4 py-2 rounded-lg transition ${filter === cat ? `bg-blue-600 text-white` : `bg-gray-100 text-gray-700 hover:bg-gray-200`}`}>{cat}</button>))}
-      </div></div>
+      <div className="bg-white rounded-xl shadow-md p-6 mb-6">
+        <div className="flex flex-wrap gap-2">
+          <Tag className="w-5 h-5 text-gray-500" />
+          <button key="全部" onClick={() => setFilter('全部')} className={`px-4 py-2 rounded-lg transition ${filter === '全部' ? `bg-blue-600 text-white` : `bg-gray-100 text-gray-700 hover:bg-gray-200`}`}>全部</button>
+          {data.categories.map(cat => (
+            <button key={cat} onClick={() => setFilter(cat)} className={`px-4 py-2 rounded-lg transition ${filter === cat ? `bg-blue-600 text-white` : `bg-gray-100 text-gray-700 hover:bg-gray-200`}`}>{cat}</button>
+          ))}
+        </div>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredItems.map((item, index) => (
           <div key={item.id || index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
-            <h3 className="text-xl font-bold text-gray-800 mb-2">{item.title || item.name}</h3>
-            <p className="text-gray-600 mb-4">{JSON.stringify(item).replace(/["{}:]/g, " ")[:100]}</p>
+            <h3 className="text-xl font-bold text-gray-800 mb-2">{item.description || item.title || item.name}</h3>
+            <div className="text-gray-600 mb-4">
+              <p className="text-lg font-semibold">{item.type === 'income' ? '+' : '-'}{item.amount}元</p>
+              <p className="text-sm">{item.date}</p>
+            </div>
             <div className="flex items-center justify-between text-sm text-gray-500">
               <span className="text-xs px-2 py-1 rounded bg-blue-100 text-blue-700">
                 {item.category}
